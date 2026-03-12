@@ -9,6 +9,8 @@
 ## Contributors
 [![Contributors](https://contrib.rocks/image?repo=smolurl/smolurl.github.io)](https://github.com/smolurl/smolurl.github.io/graphs/contributors)
 
+---
+
 <br>
 
 #### Provided by: https://cosmoscraft.net/ - Please Consider Donating :)
