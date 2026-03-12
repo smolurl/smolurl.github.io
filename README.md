@@ -15,7 +15,7 @@
 <br>
 
 ## Contributors
-[![Contributors](https://contrib.rocks/image?repo=yourusername/yourrepo)](https://github.com/yourusername/yourrepo/graphs/contributors)
+[![Contributors]([https://contrib.rocks/image?repo=yourusername/yourrepo](https://github.com/smolurl/smolurl.github.io))]([https://github.com/yourusername/yourrepo/graphs/contributors](https://github.com/smolurl/smolurl.github.io))
 
 <br>
 
