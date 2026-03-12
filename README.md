@@ -1,8 +1,10 @@
 **Want your own redirect URL?**
+
 Read this: https://github.com/smolurl/smolurl.github.io/blob/main/CONTRIBUTING.md
 
 
-```
+
+
 *Mankind will migrate into space, and will cross the airless Saharas which separate planet from planet and sun from sun.*
 
 —Winwood Reade, The Martyrdom of Man (1872)
@@ -22,4 +24,3 @@ Getting into space is not easy, and getting back to Earth safely is even tougher
 It was not until the 1950s that the proper combination of skills and technology existed to overcome the obstacles of space travel. The political climate was also just right. Two rich and powerful nations (the Soviet Union and the United States) devoted their resources to besting one another in space instead of on the battlefield. It was this spirit of competition that pushed humans off the planet and onto the Moon in 1969.
 
 Once that race was over, space priorities changed. In the twenty-first century, computerized machines do most of the exploring. They investigate planets, asteroids, comets, and the Sun. Human explorers stay much closer to Earth. They visit and live aboard space stations in orbit a couple hundred miles above the planet. On Earth people dream of longer journeys because most of space is still an unknown sea, just waiting to be explored.
-```
