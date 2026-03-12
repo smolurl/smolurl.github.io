@@ -4,7 +4,11 @@
 
 #### Read this: https://github.com/smolurl/smolurl.github.io/blob/main/CONTRIBUTING.md
 
+<br>
+
 ---
+
+<br>
 
 *Mankind will migrate into space, and will cross the airless Saharas which separate planet from planet and sun from sun.*
 
