@@ -1,193 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>ACCESS DENIED</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
+  <meta http-equiv="refresh" content="3; url=https://smolurl.org">
+  <title>SmolURL - Provided By CosmosCraft</title>
+
+  <!-- Discord/OpenGraph embed tags -->
+  <meta property="og:title" content="SmolURL - Provided By CosmosCraft">
+  <meta property="og:description" content="Thank you for using us, please consider donating!">
+  <meta property="og:image" content="https://cdn.cosmoscraft.net/index.php/apps/files_sharing/publicpreview/assets?file=/Server_banner_final_3.png&fileId=9922&x=3440&y=1440&a=true&etag=d66c84262908c7d07f23e615589ebf6a">
+  <meta property="og:url" content="https://smolurl.org/home">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: #5865F2;
+      color: white;
+    }
+    img {
+      width: 200px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+    }
+  </style>
 </head>
 <body>
-
-<h1>THIS PAGE IS BLOCKED</h1>
-<p>IF YOU ARE COMING FROM www.cosmoscraft.online and www.cosmoscraft.network DO NOT USE THESE DOMAINS ANYMORE!!!!</p>
-    
-<footer class="rounded-lg">
-    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-300 sm:text-center">
-            Info: <a
-                class="text-red-500 animate-pulse" href="https://status.cosmoscraft.net"
-                target="_blank">Wanna See Our Uptime And Status? CLICK ME! :D</a> | <a
-                class="text-red-500 animate-pulse" href="https://www.cosmoscraft.net/privacy-policy-and-tos"
-                target="_blank">Privacy Policy</a>
-        </span>
-    </div>
-</footer>
-
-<p>ACCESS DENIED</p>
-
-<style>
-  body {
-    background-color: #000;
-    color: #00ff00;
-    font-family: monospace;
-    font-size: 1.05rem;
-    padding: 20px;
-    transition: background-color .3s, color .3s;
-  }
-
-  .terminal {
-    white-space: pre-wrap;
-    line-height: 1.4em;
-    max-height: 90vh;
-    overflow-y: auto;
-    padding-top: 2rem;
-  }
-
-  .cursor {
-    display: inline-block;
-    width: 8px;
-    height: 1em;
-    background-color: #00ff00;
-    margin-left: 2px;
-    animation: blink .8s steps(1) infinite;
-    vertical-align: bottom;
-  }
-
-  @keyframes blink { 50% { opacity: 0; } }
-
-  /* Light mode */
-  body.light-mode {
-    background-color: #f5f5f5;
-    color: #008000;
-  }
-  body.light-mode .cursor { background-color: #008000; }
-
-  /* Toggle button (top-left) */
-  #toggleMode {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    z-index: 1000;
-    background: #222;
-    color: #fff;
-    border: none;
-    padding: 8px 12px;
-    cursor: pointer;
-    font-family: monospace;
-    border-radius: 4px;
-    font-size: .9rem;
-    transition: background .3s, color .3s;
-  }
-  body.light-mode #toggleMode { background: #ddd; color: #008000; }
-</style>
-</head>
-<body>
-  <button id="toggleMode">Toggle Dark Mode</button>
-
-  <div class="terminal" id="terminal">
-    root@localhost:~# <span class="cursor" id="cursor"></span>
-  </div>
-
-<script>
-/* ---------- CONFIG ---------- */
-const TARGET_URL = "https://status.cosmoscraft.net/"; // change this to desired URL
-const OPEN_IN_NEW_TAB = false;             // set true to open in new tab instead of navigating current tab
-/* ---------------------------- */
-
-const terminal = document.getElementById('terminal');
-const cursor = document.getElementById('cursor');
-const toggleBtn = document.getElementById('toggleMode');
-
-toggleBtn.addEventListener('click', () => {
-  document.body.classList.toggle('light-mode');
-});
-
-/* typing text: command then the file output */
-const command = "echo ./error.txt\n";
-const fileOutput = `
-================================================================================
-  Oops: 404 NOT FOUND
-================================================================================
-CPU: 0 PID: 404 Comm: page fault Not tainted 4.0.4 #1
-Hardware name: BK-0010-01
-
-RIP: 0010:locate_page+0x404/0xdeadbeef
-Code: Bad address at /missing-page and tried to access an unauthorized space
-Modules linked in:
- - hamster_fs
- - idle_procrastination
- - questionable_humor
- - gif_memes
-
-Process browser (pid: 404, stack limit = 0x7ffc404404)
-Stack:
-  0xdeadbeef 0xbaadf00d 0x40404040
-  0xfeedface 0x00c0fefe 0x0badcafe
-
-CPU Registers:
- EAX: 0xdeadbeef EBX: 0x40404040 ECX: 0xfeedface
- EIP: Segmentation Fault: tried to dereference hamster
-
-CR2: 0000000000000000
----[ end trace 404 ]---
-Kernel panic: Attempted to fetch non-existent page and gain unauthorized access
-
-Suggested Actions:
- - Check address and try again
- - Pretend it didn't happen
- - Find someone to complain to
-
-_[ Press any key to reboot internet ]_
-
-================================================================================`;
-
-const fullText = command + fileOutput;
-let idx = 0;
-
-/* typing animation */
-function typeChar() {
-  if (idx < fullText.length) {
-    cursor.insertAdjacentText('beforebegin', fullText.charAt(idx));
-    idx++;
-    terminal.scrollTop = terminal.scrollHeight;
-    setTimeout(typeChar, 5); // adjust typing speed here
-  }
-}
-
-/* start typing shortly after load */
-setTimeout(typeChar, 350);
-
-/* ---------- keypress handler to open page ---------- */
-/* Use `{ once: true }` so it only triggers once (prevents multiple navigations) */
-document.addEventListener('keydown', function onAnyKey(e) {
-  // optionally prevent default to stop accidental browser shortcuts (leave as-is if not wanted)
-  // e.preventDefault();
-
-  // Open target page. Choose either navigate current tab or open new tab.
-  if (OPEN_IN_NEW_TAB) {
-    // window.open uses user gesture (keydown) so should not be blocked in normal browsers
-    window.open(TARGET_URL, '_blank', 'noopener');
-  } else {
-    window.location.href = TARGET_URL;
-  }
-
-  // remove listener so it doesn't fire again
-}, { once: true });
-
-/* Optional: allow "reboot" by clearing and restarting when any key pressed after the typing finishes.
-   If you want that instead of navigation, remove the code above and use the code below:
-   
-document.addEventListener('keydown', () => {
-  terminal.textContent = 'root@localhost:~# ';
-  terminal.appendChild(cursor);
-  idx = 0;
-  setTimeout(typeChar, 200);
-});
-*/
-</script>
+  <img src="https://cdn.cosmoscraft.net/index.php/apps/files_sharing/publicpreview/assets?file=/Server_banner_final_3.png&fileId=9922&x=3440&y=1440&a=true&etag=d66c84262908c7d07f23e615589ebf6a" alt="SmolURL - Provided By CosmosCraft">
+  <h1>SmolURL - Provided By CosmosCraft</h1>
+  <p>Redirecting you in 3 seconds...</p>
 </body>
-</html> 
+</html>
