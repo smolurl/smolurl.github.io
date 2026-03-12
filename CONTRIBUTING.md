@@ -1,11 +1,12 @@
-1. Fork this repo
-2. Create a folder with your desired slug: `yourslug/` <- YOUR TRAILING SLASH/SLUG (WHICH IS WHATS AFTER THE / ) GOES HERE
-3. Add an index.html inside it containing:
+1. At the main page: https://github.com/smolurl/smolurl.github.io
+2. Click `Add file`, then click `create new file`
+3. Create a folder with your desired slug: `yourslug/index.html` <- LEAVE THE index.html NAME - YOUR TRAILING SLASH/SLUG (WHICH IS WHATS AFTER THE / ) GOES HERE WHICH IS WHAT YOU WILL PUT/PASTE IN ANOTHER SITE AND USE.
+4. After typing `index.html` at the top, add the following inside it and edit `https://example.com` and anything that says `/yourslug` aswell:
 ```
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="refresh" content="3; url=https://yoururl.com"> <!-- << YOUR URL THAT YOU WANT TO REDIRECT TO GOES HERE -->
+  <meta http-equiv="refresh" content="3; url=https://example.com"> <!-- << YOUR URL THAT YOU WANT TO REDIRECT TO GOES HERE -->
   <title>SmolURL - Provided By CosmosCraft</title>
 
   <!-- Discord/OpenGraph embed tags -->
@@ -40,4 +41,7 @@
 </body>
 </html>
 ```
-4. Submit a Pull Request with the title: Add redirect: `/yourslug`
+4. Submit a Pull Request with the title(and edit the `/yourslug` to your slug/redirect name):
+```
+Add redirect: /yourslug
+```
