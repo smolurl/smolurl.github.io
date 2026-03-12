@@ -49,5 +49,5 @@ Add redirect: /yourslug
 ---
 
 EXAMPLES:
-1. https://github.com/smolurl/smolurl.github.io/pull/2
-2. https://github.com/smolurl/smolurl.github.io/pull/3
+1. Link to a pull Request: https://github.com/smolurl/smolurl.github.io/pull/2
+2. Link to a pull Request: https://github.com/smolurl/smolurl.github.io/pull/3
