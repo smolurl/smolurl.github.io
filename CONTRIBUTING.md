@@ -1,5 +1,5 @@
 1. At the main page: https://github.com/smolurl/smolurl.github.io
-2. Click `Add file`, then click `create new file`
+2. Click `Add file`, then click `Create new file`
 3. Create a folder with your desired slug: `yourslug/index.html` <- LEAVE THE index.html NAME - YOUR TRAILING SLASH/SLUG (WHICH IS WHATS AFTER THE / ) GOES HERE WHICH IS WHAT YOU WILL PUT/PASTE IN ANOTHER SITE AND USE.
 4. After typing `index.html` at the top, add the following inside it and edit `https://example.com` and anything that says `/yourslug` aswell:
 ```
