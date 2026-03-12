@@ -11,8 +11,6 @@
 
 ---
 
-<br>
-
 #### Provided by: https://cosmoscraft.net/ - Please Consider Donating :)
 
 ---
