@@ -2,7 +2,9 @@
 
 <br>
 
-## READ THIS ON HOW TO MAKE YOUR OWN: https://github.com/smolurl/smolurl.github.io/blob/main/CONTRIBUTING.md
+## READ THIS ON HOW TO MAKE YOUR OWN:
+<br>
+https://github.com/smolurl/smolurl.github.io/blob/main/CONTRIBUTING.md
 
 <br>
 
