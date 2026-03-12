@@ -1,6 +1,7 @@
 # **Want your own redirect URL?**
 <br>
-# Read this: https://github.com/smolurl/smolurl.github.io/blob/main/CONTRIBUTING.md
+Read this: https://github.com/smolurl/smolurl.github.io/blob/main/CONTRIBUTING.md
+---
 <br>
 <br>
 <br>
