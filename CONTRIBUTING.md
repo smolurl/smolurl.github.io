@@ -45,3 +45,9 @@
 ```
 Add redirect: /yourslug
 ```
+
+---
+
+EXAMPLES:
+1. https://github.com/smolurl/smolurl.github.io/pull/2
+2. https://github.com/smolurl/smolurl.github.io/pull/3
