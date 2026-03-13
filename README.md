@@ -11,7 +11,7 @@
 
 ---
 
-#### Provided by: https://cosmoscraft.net/ - Please Consider Donating :)
+#### Provided by: https://cosmoscraft.net/ - Please Consider Donating: https://www.cosmoscraft.net/donate/ :)
 
 ---
 
